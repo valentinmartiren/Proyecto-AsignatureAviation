@@ -11,20 +11,35 @@
         <link rel="stylesheet" href="../css/estilos.css">
     </head>
     <body>
-        <header class="header_flota">
-            <nav class="navbar">
-                <div class="logo">
-                    <a href="../index.html"><img src="../assets/img/logo.png" alt="logo_signature_aviation"></a>
+        <header class="header_index">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="../Index.html"><img src="../assets/img/logo.png" alt="Logo_Asignature" width="43" height="40"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../Index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="../pages/identidad.html">Quiénes somos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="#">Flota</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="../pages/seguros.html">Seguros</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="../pages/contacto.html">Contacto</a>
+                    </li>
+                  </ul>
                 </div>
-                <ul class="nav-links">
-                    <li><a class="nav-links__a link_flota" href="../Index.html">Inicio</a></li>
-                    <li><a class="nav-links__a link_flota" href="identidad.html">Quiénes somos</a></li>
-                    <li><a class="nav-links__a link_flota" href="#">Flota</a></li>
-                    <li><a class="nav-links__a link_flota" href="seguros.html">Seguros</a></li>
-                    <li><a class="nav-links__a link_flota" href="contacto.html">Contacto</a></li>
-                </ul>
+              </div>
             </nav>
-        </header>  
+        </header> 
         <main>
             <section class="descripcionFlota">
                 <h1 id="titulosPaginas">Conocé nuestra flota</h1>
@@ -81,61 +96,100 @@
             <a class="link_contacto" href="../pages/contacto.html">¡No dudes en consultarnos!</a>
         </main>
         <footer>
-            <div class="footer">
-                <section class="location">
-                    <h2>¿Ya sabés dónde encontrarnos?</h2>
-                    <iframe class="iframe_location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.8472110871217!2d-58.58655922354387!3d-34.456026173007494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca5176e8d535f%3A0x1f3829912ba9bc9a!2sAeropuerto%20Internacional%20de%20San%20Fernando!5e0!3m2!1ses!2sar!4v1685819460736!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </section>
-                <section class="nosotros">
-                    <div class="nosotros_footer">
-                        <h2>¿Por qué elegirnos?</h2>
-                        <p>Empresa lider en venta y alquiler de Aeronaves</p>
-                        <p>Nuestra ubicación en el aeropuerto Internacional de San Fernando nos ubica en el centro de las operaciones privadas y comerciales.</p>
-                        <p>Te esperamos!</p>
-                    </div>
-                </section>
-                <section class="contacto">
+            <section class="footer">
+              <div class="location">
+                <h2>¿Ya sabés dónde encontrarnos?</h2>
+              </div>
+              <div class="container-fluid">
+              <div class="row">
+                <div class="col-12">
+                  <iframe class="iframe_location w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.8472110871217!2d-58.58655922354387!3d-34.456026173007494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca5176e8d535f%3A0x1f3829912ba9bc9a!2sAeropuerto%20Internacional%20de%20San%20Fernando!5e0!3m2!1ses!2sar!4v1685819460736!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+              <div class="container-fluid nosotros py-5">
+                <div class="row">
+                  <div class="col-12 d-flex justify-content-center align-items-center text-align-center">
+                    <h2>¿Por qué elegirnos?</h2>
+                  </div>
+                  <div class="col-12 d-flex justify-content-center align-items-center text-align-center">
+                    <p>Empresa lider en venta y alquiler de Aeronaves</p>
+                  </div>
+                  <div class="col-12 d-flex justify-content-center align-items-center text-align-center">
+                    <p>Nuestra ubicación en el aeropuerto Internacional de San Fernando nos ubica en el centro de las operaciones privadas y comerciales.</p>
+                  </div>
+                  <div class="col-12 d-flex justify-content-center align-items-center text-align-center">
+                    <p>Te esperamos!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="container pt-3">
+                <div class="row">
+                  <div class="col-12 d-flex justify-content-center">
                     <h2>Comunicate con nosotros</h2>
-                    <section class="contacto_ways">
-                        <div class="whatsappCtc">
-                            <img class="whatsappCtc__img" src="../assets/img/whatsapp_logo.png" alt="wpp_icono"> 
-                            <ul class="whatsappCtc__ul">
-                                <li class="whatsappCtc__ul-li">+54 11-54698542</li>
-                                <li class="whatsappCtc__ul-li">Lun a Vie 08hs - 20hs</li>
-                            </ul>
-                        </div>
-                        <div class="telefonoCtc">
-                            <img class="telefonoCtc" src="../assets/img/telephone.png" alt="telefono_icono">
-                            <ul class="telefonoCtc__ul">
-                                <li class="telefonoCtc__ul-li">0800 333 5698 - At. Cliente</li>
-                                <li class="telefonoCtc__ul-li">0800 356 5784 - Cobranzas</li>
-                                <li class="telefonoCtc__ul-li">0800 354 2365 - Seguros</li>
-                                <li class="telefonoCtc__ul-li">Lun a vie 08hs - 20hs</li>
-                                <li class="telefonoCtc__ul-li">Sáb, Dom y feriados 08hs - 14hs</li>
-                            </ul>
-                        </div>
-                        <div class="mailCtc">
-                            <img class="mailCtc__img" src="../assets/img/mail_icon.png" alt="mail_icono">
-                            <ul class="mailCtc__ul">
-                                <li class="mailCtc__ul-li">info@signatureaviation.com.ar</li>
-                                <li class="mailCtc__ul-li">ventas@signatureaviation.com.ar</li>
-                            </ul>
-                        </div>
-                    </section>
-                </section>
-                <section class="encontranos">
-                    <h2>Encontranos</h2>
-                    <div class="encontranos_link">
-                        <a href="https://facebook.com" target="_blank"><img class="img_encontranos" src="../assets/img/facebook_icon.png" alt="facebook_icono"></a>
-                        <a href="https://www.linkedin.com/" target="_blank"><img class="img_encontranos" src="../assets/img/linkedin_icon.png" alt="linkedin_icon"></a>
-                        <a href="https://instagram.com" target="_blank"><img class="img_encontranos" src="../assets/img/instagram_icon.png" alt="instagram_icon"></a>
-                        <a href="https://twitter.com" target="_blank"><img class="img_encontranos" src="../assets/img/twitter_icon.png" alt="twitter_icon"></a>    
-                    </div>
+                  </div>
+                </div>
+              <div class="container py-5 contacto">
+                <div class="row">
+                  <div class="col-sm-12 col-md-4 d-flex align-items-center">
+                    <img class="whatsappCtc__img" src="../assets/img/whatsapp_logo.png" alt="wpp_icono"> 
+                    <ul class="list-inline ps-4">
+                        <li class="whatsappCtc__ul-li">+54 11-54698542</li>
+                        <li class="whatsappCtc__ul-li">Lun a Vie 08hs - 20hs</li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-12 col-md-4 d-flex align-items-center">
+                    <img class="telefonoCtc" src="../assets/img/telephone.png" alt="telefono_icono">
+                    <ul class="list-inline ps-4">
+                        <li class="telefonoCtc__ul-li col-sm-12">0800 333 5698 - At. Cliente</li>
+                        <li class="telefonoCtc__ul-li col-sm-12">0800 356 5784 - Cobranzas</li>
+                        <li class="telefonoCtc__ul-li col-sm-12">0800 354 2365 - Seguros</li>
+                        <li class="telefonoCtc__ul-li col-sm-12">Lun a vie 08hs - 20hs</li>
+                        <li class="telefonoCtc__ul-li col-sm-12">Sáb, Dom y feriados 08hs - 14hs</li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-12 col-md-4 d-flex align-items-center">
+                    <img class="mailCtc__img" src="../assets/img/mail_icon.png" alt="mail_icono">
+                    <ul class="list-inline ps-4">
+                        <li class="mailCtc__ul-li">info@signatureaviation.com.ar</li>
+                        <li class="mailCtc__ul-li">ventas@signatureaviation.com.ar</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="container-fluid d-flex  justify-content-center align-items-center encontranos">
+                <div class="row">
+                  <div class="col-12">
+                    <h2>Encontrános</h2>
+                  </div>
+              <div class="container-fluid pt-3 d-flex justify-content-center align-items-center">
+                <div class="row">
+                  <div class="col-3 d-flex justify-content-center align-items-center text-align-center">
+                    <a href="https://facebook.com" target="_blank"><img class="img-fluid img_encontranos" src="../assets/img/facebook_icon.png" alt="facebook_icono"></a>
+                  </div>
+                  <div class="col-3 d-flex justify-content-center align-items-center text-align-center">
+                    <a href="https://www.linkedin.com/" target="_blank"><img class="img-fluid img_encontranos" src="../assets/img/linkedin_icon.png" alt="linkedin_icon"></a>
+                  </div>
+                  <div class="col-3 d-flex justify-content-center align-items-center text-align-center">
+                    <a href="https://instagram.com" target="_blank"><img class="img-fluid img_encontranos" src="../assets/img/instagram_icon.png" alt="instagram_icon"></a>
+                  </div>
+                  <div class="col-3 d-flex justify-content-center align-items-center text-align-center">
+                    <a href="https://twitter.com" target="_blank"><img class="img-fluid img_encontranos" src="../assets/img/twitter_icon.png" alt="twitter_icon"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="container-fluid pt-5 pb-2">
+                <div class="row">
+                  <div class="col-12 d-flex justify-content-center align-items-center text-align-center">
                     <p>Sitio oficial signature Aviation S.A</p>
+                  </div>
+                  <div class="col-12 d-flex justify-content-center align-items-center text-align-center">
                     <p>© 1987 - 2023</p>
-                </section>
-            </div>
-        </footer>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </footer>
         <link rel="stylesheet" href="../js/bootstrap.min.js">
     </body>
 </html>

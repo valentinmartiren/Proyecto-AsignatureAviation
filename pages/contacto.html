@@ -11,128 +11,228 @@
         <link rel="stylesheet" href="../css/estilos.css">
     </head>
     <body>
-        <header class="header_contacto">
-            <nav class="navbar">
-                <div class="logo">
-                    <a href="../index.html"><img src="../assets/img/logo.png" alt="logo_signature_aviation"></a>
+        <header class="header_index">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="../Index.html"><img src="../assets/img/logo.png" alt="Logo_Asignature" width="43" height="40"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../Index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="../pages/identidad.html">Quiénes somos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="../pages/flota.html">Flota</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="../pages/seguros.html">Seguros</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="#">Contacto</a>
+                    </li>
+                  </ul>
                 </div>
-                <ul class="nav-links">
-                    <li><a class="nav-links__a link_flota" href="../Index.html">Inicio</a></li>
-                    <li><a class="nav-links__a link_flota" href="identidad.html">Quiénes somos</a></li>
-                    <li><a class="nav-links__a link_flota" href="flota.html">Flota</a></li>
-                    <li><a class="nav-links__a link_flota" href="seguros.html">Seguros</a></li>
-                    <li><a class="nav-links__a link_flota" href="#">Contacto</a></li>
-                </ul>
+              </div>
             </nav>
         </header>
         <main>
-            <section class="prim_contacto">
-                <div class="contacto_title">
-                    <h1>Contacto</h1>
-                    <h2>No dudes en escribir tu consulta</h2>
+            <div class="conatiner-fluid">
+                <div class="row">
+                    <img class="img-fluid" src="../assets/img/Citation-X.jpg" alt="CitationBackground">
                 </div>
-            </section>
-            <section class="seg_contacto">
-                <div class="info_cliente">
-                    <h2>Recordá que si sos cliente podes comunicarte a través de nuestro WhatsApp o desde la aplicación.</h2>
-                    <p>Los horarios de atención son</p>
-                    <p class="info_clientes-p">WhatsApp* y la aplicación:</p>
-                    <p>Lun a Vie 08hs - 20hs</p>
-                    <p class="info_clientes-p">Línas telefónicas:</p>
-                    <p>Lun a Vie 08hs - 20hs</p>
-                    <p>Sáb, Dom y Feriados 08h - 14hs</p>
-                    <p>En caso de no ser cliente puedes dejarnos tu consulta en el formulario de abajo y serás atendido a la brevedad por WhatsApp con un operador.</p>
-                    <p class="info_clientes-p-3">¡Muchas gracias!</p>
-                    <p>Atencion:</p>
-                    <p>*En los horarios fuera de la atención se encuentra disponible la ayuda 24hs con nuestro asistente virtual.</p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center text-align-center">
+                        <h1>Contacto</h1>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center text-align-center">
+                        <h2>¡No dudes en hacer tu consulta!</h2>
+                    </div>
                 </div>
-            </section>
-            <section class="form_cont">
-                <h2 class="form_cont-h2">Formulario de contacto</h2>
-                <div class="form_cont-input">
-                    <label for="">Nombre y apellido</label>
-                    <input type="text" required placeholder="Nombre y apellido">
+            </div>
+            <div class="container d-flex my-5">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center align-items-center text-align-center">
+                        <h4>Recordá que si sos cliente podés comunicarte a través de nuestro WhatsApp o desde la aplicación de Signature Aviation.</h4>
+                    </div>
+                    <div class="col-12">
+                        <p>Los horarios de atención son</p>
+                    </div>
+                    <div class="col-12">
+                        <b>WhatsApp* y la aplicación:</b>
+                    </div>
+                    <div class="col-12">
+                        <p>Lun a Vie 08hs - 20hs</p>
+                    </div>
+                    <div class="col-12">
+                        <b>Líneas telefónicas:</b>
+                    </div>
+                    <div class="col-12">
+                        <p>Lun a Vie 08hs - 20hs</p>
+                    </div>
+                    <div class="col-12">
+                        <p>Sáb, Dom y Feriados 08h - 14hs</p>
+                    </div>
+                    <div class="col-12">
+                        <p>En caso de no ser cliente puedes dejarnos tu consulta en el formulario de abajo y serás atendido a la brevedad por WhatsApp con un operador.</p>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center py-2">
+                        <b>¡Muchas gracias!</b>
+                    </div>
+                    <div class="col-12">
+                        <p class="mt-3">Atencion:</p>
+                    </div>
+                    <div class="col-12">
+                        <p>*En los horarios fuera de la atención se encuentra <b>disponible</b> la <b>ayuda 24hs con nuestro asistente virtual.</b></p>
+                    </div>
                 </div>
-                <div class="form_cont-input">
-                    <label for="">Número de telefono</label>
-                    <input type="number" required placeholder="+549 ">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="d-flex justify-content-center text-align-center mb-5">Formulario de contacto</h2>
+                    </div>
                 </div>
-                <div class="form_cont-input">
-                    <label for="">Correo electrónico</label>
-                    <input type="email" required placeholder="ejemplo@gmail.com">
+            </div>
+            <div class="container pb-5">
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Nombre y Apellido</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" required placeholder="Nombre y apeliido">
                 </div>
-                <div class="form_cont-input_textarea">
-                    <label for="">Detalle su consulta aquí debajo</label>
-                    <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control required" id="formGroupExampleInput2" required placeholder="zzzz@ejemplo.com">
                 </div>
-                <div class="form_cont-input">
-                    <label for="">¿Deseas que te enviemos las novedades al correo electrónico?</label>
-                    <input type="checkbox">
+                <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Numero de telefono</label>
+                    <input type="number" class="form-control" id="formGroupExampleInput2" required placeholder="+54 9 11">
                 </div>
-                <div class="form_cont-input">
-                    <input type="reset" value="Volver a comenzar">
+                <div class="form-floating">
+                    <select class="form-select" id="floatingSelect" required aria-label="Floating label select example">
+                      <option selected></option>
+                      <option value="1">Piloto Privado</option>
+                      <option value="2">Piloto comercial</option>
+                      <option value="3">Vuelo bautismo</option>
+                      <option value="3">Otra</option>
+                    </select>
+                    <label for="floatingSelect">Eliga la opción que está buscando</label>
                 </div>
-                <div class="form_cont-input">
-                    <input type="submit" value="Enviar consulta">
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Escriba aquí su consulta concreta</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
-            </section>
+                <div class="form-check d-flex justify-content-center">
+                    <label class="form-check-label" for="flexCheckDefault">Desea recibir nuestras novedades a través de su casilla de correo electrónico?</label>
+                    <input class="form-check-input ms-2" type="checkbox" value="" id="flexCheckDefault">
+                </div>
+                <div class="d-grid gap-2 col-6 mx-auto mt-5">
+                    <button class="btn btn-secondary" type="button">Enviar</button>
+                </div>
+            </div>
         </main>
         <footer>
-            <div class="footer">
-                <section class="location">
-                    <h2>¿Ya sabés dónde encontrarnos?</h2>
-                    <iframe class="iframe_location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.8472110871217!2d-58.58655922354387!3d-34.456026173007494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca5176e8d535f%3A0x1f3829912ba9bc9a!2sAeropuerto%20Internacional%20de%20San%20Fernando!5e0!3m2!1ses!2sar!4v1685819460736!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </section>
-                <section class="nosotros">
-                    <div class="nosotros_footer">
-                        <h2>¿Por qué elegirnos?</h2>
-                        <p>Empresa lider en venta y alquiler de Aeronaves</p>
-                        <p>Nuestra ubicación en el aeropuerto Internacional de San Fernando nos ubica en el centro de las operaciones privadas y comerciales.</p>
-                        <p>Te esperamos!</p>
-                    </div>
-                </section>
-                <section class="contacto">
+            <section class="footer">
+              <div class="location">
+                <h2>¿Ya sabés dónde encontrarnos?</h2>
+              </div>
+              <div class="container-fluid">
+              <div class="row">
+                <div class="col-12">
+                  <iframe class="iframe_location w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.8472110871217!2d-58.58655922354387!3d-34.456026173007494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca5176e8d535f%3A0x1f3829912ba9bc9a!2sAeropuerto%20Internacional%20de%20San%20Fernando!5e0!3m2!1ses!2sar!4v1685819460736!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+              <div class="container-fluid nosotros py-5">
+                <div class="row">
+                  <div class="col-12 d-flex justify-content-center align-items-center text-align-center">
+                    <h2>¿Por qué elegirnos?</h2>
+                  </div>
+                  <div class="col-12 d-flex justify-content-center align-items-center text-align-center">
+                    <p>Empresa lider en venta y alquiler de Aeronaves</p>
+                  </div>
+                  <div class="col-12 d-flex justify-content-center align-items-center text-align-center">
+                    <p>Nuestra ubicación en el aeropuerto Internacional de San Fernando nos ubica en el centro de las operaciones privadas y comerciales.</p>
+                  </div>
+                  <div class="col-12 d-flex justify-content-center align-items-center text-align-center">
+                    <p>Te esperamos!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="container pt-3">
+                <div class="row">
+                  <div class="col-12 d-flex justify-content-center">
                     <h2>Comunicate con nosotros</h2>
-                    <section class="contacto_ways">
-                        <div class="whatsappCtc">
-                            <img class="whatsappCtc__img" src="../assets/img/whatsapp_logo.png" alt="wpp_icono"> 
-                            <ul class="whatsappCtc__ul">
-                                <li class="whatsappCtc__ul-li">+54 11-54698542</li>
-                                <li class="whatsappCtc__ul-li">Lun a Vie 08hs - 20hs</li>
-                            </ul>
-                        </div>
-                        <div class="telefonoCtc">
-                            <img class="telefonoCtc" src="../assets/img/telephone.png" alt="telefono_icono">
-                            <ul class="telefonoCtc__ul">
-                                <li class="telefonoCtc__ul-li">0800 333 5698 - At. Cliente</li>
-                                <li class="telefonoCtc__ul-li">0800 356 5784 - Cobranzas</li>
-                                <li class="telefonoCtc__ul-li">0800 354 2365 - Seguros</li>
-                                <li class="telefonoCtc__ul-li">Lun a vie 08hs - 20hs</li>
-                                <li class="telefonoCtc__ul-li">Sáb, Dom y feriados 08hs - 14hs</li>
-                            </ul>
-                        </div>
-                        <div class="mailCtc">
-                            <img class="mailCtc__img" src="../assets/img/mail_icon.png" alt="mail_icono">
-                            <ul class="mailCtc__ul">
-                                <li class="mailCtc__ul-li">info@signatureaviation.com.ar</li>
-                                <li class="mailCtc__ul-li">ventas@signatureaviation.com.ar</li>
-                            </ul>
-                        </div>
-                    </section>
-                </section>
-                <section class="encontranos">
-                    <h2>Encontranos</h2>
-                    <div class="encontranos_link">
-                        <a href="https://facebook.com" target="_blank"><img class="img_encontranos" src="../assets/img/facebook_icon.png" alt="facebook_icono"></a>
-                        <a href="https://www.linkedin.com/" target="_blank"><img class="img_encontranos" src="../assets/img/linkedin_icon.png" alt="linkedin_icon"></a>
-                        <a href="https://instagram.com" target="_blank"><img class="img_encontranos" src="../assets/img/instagram_icon.png" alt="instagram_icon"></a>
-                        <a href="https://twitter.com" target="_blank"><img class="img_encontranos" src="../assets/img/twitter_icon.png" alt="twitter_icon"></a>    
+                  </div>
+                </div>
+              <div class="container py-5 contacto">
+                <div class="row">
+                  <div class="col-sm-12 col-md-4 d-flex align-items-center">
+                    <img class="whatsappCtc__img" src="../assets/img/whatsapp_logo.png" alt="wpp_icono"> 
+                    <ul class="list-inline ps-4">
+                        <li class="whatsappCtc__ul-li">+54 11-54698542</li>
+                        <li class="whatsappCtc__ul-li">Lun a Vie 08hs - 20hs</li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-12 col-md-4 d-flex align-items-center">
+                    <img class="telefonoCtc" src="../assets/img/telephone.png" alt="telefono_icono">
+                    <ul class="list-inline ps-4">
+                        <li class="telefonoCtc__ul-li col-sm-12">0800 333 5698 - At. Cliente</li>
+                        <li class="telefonoCtc__ul-li col-sm-12">0800 356 5784 - Cobranzas</li>
+                        <li class="telefonoCtc__ul-li col-sm-12">0800 354 2365 - Seguros</li>
+                        <li class="telefonoCtc__ul-li col-sm-12">Lun a vie 08hs - 20hs</li>
+                        <li class="telefonoCtc__ul-li col-sm-12">Sáb, Dom y feriados 08hs - 14hs</li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-12 col-md-4 d-flex align-items-center">
+                    <img class="mailCtc__img" src="../assets/img/mail_icon.png" alt="mail_icono">
+                    <ul class="list-inline ps-4">
+                        <li class="mailCtc__ul-li">info@signatureaviation.com.ar</li>
+                        <li class="mailCtc__ul-li">ventas@signatureaviation.com.ar</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="container-fluid ">
+                <div class="container-fluid d-flex justify-content-center align-items-center encontranos">
+                    <div class="row">
+                      <div class="col-12">
+                        <h2>Encontrános</h2>
+                      </div>
+                  <div class="container-fluid pt-3 d-flex justify-content-center align-items-center">
+                    <div class="row">
+                      <div class="col-3 d-flex justify-content-center align-items-center text-align-center">
+                        <a href="https://facebook.com" target="_blank"><img class="img-fluid img_encontranos" src="../assets/img/facebook_icon.png" alt="facebook_icono"></a>
+                      </div>
+                      <div class="col-3 d-flex justify-content-center align-items-center text-align-center">
+                        <a href="https://www.linkedin.com/" target="_blank"><img class="img-fluid img_encontranos" src="../assets/img/linkedin_icon.png" alt="linkedin_icon"></a>
+                      </div>
+                      <div class="col-3 d-flex justify-content-center align-items-center text-align-center">
+                        <a href="https://instagram.com" target="_blank"><img class="img-fluid img_encontranos" src="../assets/img/instagram_icon.png" alt="instagram_icon"></a>
+                      </div>
+                      <div class="col-3 d-flex justify-content-center align-items-center text-align-center">
+                        <a href="https://twitter.com" target="_blank"><img class="img-fluid img_encontranos" src="../assets/img/twitter_icon.png" alt="twitter_icon"></a>
+                      </div>
                     </div>
-                    <p>Sitio oficial signature Aviation S.A</p>
-                    <p>© 1987 - 2023</p>
-                </section>
-            </div>
-        </footer>
+                  </div>
+                  <div class="container-fluid pt-5 pb-2">
+                    <div class="row">
+                      <div class="col-12 d-flex justify-content-center align-items-center text-align-center">
+                        <p>Sitio oficial signature Aviation S.A</p>
+                      </div>
+                      <div class="col-12 d-flex justify-content-center align-items-center text-align-center">
+                        <p>© 1987 - 2023</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              
+            </section>
+          </footer>
         <link rel="stylesheet" href="../js/bootstrap.min.js">
     </body>
 </html>

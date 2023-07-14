@@ -13,7 +13,8 @@
 *{
     font-family: monda;
     box-sizing: border-box;
-    font-size: 1.1rem;
+    margin: 0;
+    padding: 0;
 }
 
 #titulosPaginas{
@@ -107,8 +108,12 @@ main{
 }
 /*FOOTER*/
 
-.footer{
+footer{
     background-color: #b4d8ff;
+}
+
+.paddingCero{
+    padding: 0;
 }
 
 .location h2{
@@ -155,212 +160,29 @@ main{
     color:#c9e3ff;
 }
 
-/* ACÁ ESTÁ EL ESTILO DE LAS PAGINAS QUE AÚN NO LE APLIQUÉ BS!! UNA VEZ REALIZADO LO BORRARÍA TODO COMO HICE ARRIBA*/
-
-/* FLOTA */
-/*
-.descripcionFlota{
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    margin-bottom: 40px;
-}
-
-.descripcionFlota h1{
-    color:#264a77;
-    margin-top: 0;
-    padding-top: 50px;
-}
-
-.descripcionFlota p{
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
-.flota{
-    justify-content: center;
-    text-align: center;
-    margin-top: 25px;
-}
-
-.flota p{
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
-.flota h2{
+#flota__h2{
     font-size: 1.50rem;
     color: #264a77;
 }
 
-.flota h3{
-    color: #3867a1;
+.galeria-flota{
+    height: 70vh;
 }
 
-.flota_helicoptero h2{
-    color: #264a77;
-    font-size: 1.50rem;
-    margin-bottom: 25px;
-}
-
-.flota_helicoptero h3{
-    color: #3867a1;
-}
-
-.flota_helicoptero{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 25px;
-    margin-bottom: 80px;
-}
-
-.flota_helicoptero p{
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
-.md500e{
-    margin-bottom: 50px;
+.galeria-flota img{
+    object-fit: cover;
 }
 
 .link_contacto{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
-    padding-bottom: 80px;
+
     color: #264a77;
     font-size: 1.50rem;
 }
-
-.flota{
-    margin-bottom: 25px;
-}
-
-.flota h2{
-    margin-bottom: 50px;
-}
-.flota img{
-    margin-bottom: 10px;
-    width: 30vw;
-    height: 50vh;
-    border-radius: 10px;
-}
-
-.valores img{
-    margin-bottom: 10px;
-    width: 30vw;
-    height: 50vh;
-    border-radius: 10px;
-}
-
-.iframe_Citation{
-    justify-content: center;
-    margin: 40px 0;
-}
-
-
-
-/* SEGUROS */
-/*
-.mainTitle_seguros{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.title_seguros{
-    color:#264a77;
-}    
-
-.title_seguros h1{
-    font-size: 8rem;
-}
-
-.title_seguros h2{
-    text-align: center;
-}
-
-.clasif{
-    padding-top: 20px;
-    background-color: #3867a1;
-}
-
-.clasif_seguros{
-    display: flex;
-    justify-content: center;
-    color: white;
-    padding-top: 25px;
-}
-
 
 .clasif_seguros_list{
     list-style-type: decimal;
 }
 
-.ante_clasif{
-    display: flex;
-    justify-content: center;
-    margin: 15px 0;
-    color:white;
-}
-
-.grafito img{
+.planesSeguros img{
     height: 30vh;
-    width: 15vw;
 }
-
-.grafito{
-    margin-right: 5%;
-    width: 15vw;
-}
-
-.grafito h3{
-    text-align: center;
-}
-
-.platino img{
-    display: flex;
-    margin: auto;
-    height: 30vh;
-    width: 15vw;
-    border-radius: 50%;
-}
-
-.platino{
-    margin-right:5%;
-    width: 17vw;
-}
-
-.platino h3{
-    text-align: center;
-}
-
-.diamante img{
-    display: flex;
-    margin: auto;
-    height: 30vh;
-    width: 15vw;
-}
-
-.diamante{
-    width: 20vw;
-}
-
-.diamante h3{
-    text-align: center;
-}
-
-.elegirnos{
-    display:flexbox;
-    justify-content: center;
-    margin: 50px 30% 50px 30%;
-    padding-bottom: 15px;
-}
-
-.elegirnos_pq ul{
-    list-style-type:decimal;
-}
-

@@ -57,7 +57,7 @@
         <img class="img-fluid" src="../assets/img/Citation-X.jpg" alt="CitationBackground">
       </div>
     </div>
-    <div class="container">
+    <div class="container pt-5">
       <div class="row">
         <div class="col-12 d-flex justify-content-center text-align-center">
           <h1>Contacto</h1>
@@ -114,43 +114,48 @@
         </div>
       </div>
     </div>
-    <div class="container pb-5">
-      <div class="mb-3">
-        <label for="formGroupExampleInput" class="form-label">Nombre y Apellido</label>
-        <input type="text" class="form-control" id="formGroupExampleInput" required placeholder="Nombre y apeliido">
+    <form action="error.html" method="get">
+      <div class="container pb-5">
+        <div class="mb-3">
+          <label for="formGroupExampleInput" class="form-label">Nombre y Apellido</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" required placeholder="Nombre y apeliido">
+        </div>
+        <div class="mb-3">
+          <label for="formGroupExampleInput2" class="form-label">Correo electrónico</label>
+          <input type="email" class="form-control required" id="formGroupExampleInput2" required
+            placeholder="zzzz@ejemplo.com">
+        </div>
+        <div class="mb-3">
+          <label for="formGroupExampleInput2" class="form-label">Numero de telefono</label>
+          <input type="number" class="form-control" id="formGroupExampleInput2" required placeholder="+54 9 11">
+        </div>
+        <div class="form-floating">
+          <select class="form-select" id="floatingSelect" required aria-label="Floating label select example">
+            <option selected></option>
+            <option value="1">Piloto Privado</option>
+            <option value="2">Piloto comercial</option>
+            <option value="3">Vuelo bautismo</option>
+            <option value="3">Otra</option>
+          </select>
+          <label for="floatingSelect">Eliga la opción que está buscando</label>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Escriba aquí su consulta concreta</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="form-check d-flex justify-content-center">
+          <label class="form-check-label" for="flexCheckDefault">Desea recibir nuestras novedades a través de su casilla
+            de correo electrónico?</label>
+          <input class="form-check-input ms-2" type="checkbox" value="" id="flexCheckDefault">
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto mt-5">
+          <input class="btn btn-secondary bg-success" type="submit" value="Enviar"></input>
+          <input class="btn btn-secondary bg-dark" type="reset" value="Limpiar formulario"></input>
+
+        </div>
       </div>
-      <div class="mb-3">
-        <label for="formGroupExampleInput2" class="form-label">Correo electrónico</label>
-        <input type="email" class="form-control required" id="formGroupExampleInput2" required
-          placeholder="zzzz@ejemplo.com">
-      </div>
-      <div class="mb-3">
-        <label for="formGroupExampleInput2" class="form-label">Numero de telefono</label>
-        <input type="number" class="form-control" id="formGroupExampleInput2" required placeholder="+54 9 11">
-      </div>
-      <div class="form-floating">
-        <select class="form-select" id="floatingSelect" required aria-label="Floating label select example">
-          <option selected></option>
-          <option value="1">Piloto Privado</option>
-          <option value="2">Piloto comercial</option>
-          <option value="3">Vuelo bautismo</option>
-          <option value="3">Otra</option>
-        </select>
-        <label for="floatingSelect">Eliga la opción que está buscando</label>
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Escriba aquí su consulta concreta</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-      <div class="form-check d-flex justify-content-center">
-        <label class="form-check-label" for="flexCheckDefault">Desea recibir nuestras novedades a través de su casilla
-          de correo electrónico?</label>
-        <input class="form-check-input ms-2" type="checkbox" value="" id="flexCheckDefault">
-      </div>
-      <div class="d-grid gap-2 col-6 mx-auto mt-5">
-        <button class="btn btn-secondary" type="button">Enviar</button>
-      </div>
-    </div>
+    </form>
+    
   </main>
   <footer>
     <div class="location">
@@ -255,7 +260,9 @@
         </div>
       </div>
   </footer>
-  <link rel="stylesheet" href="../js/bootstrap.min.js">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+  crossorigin="anonymous"></script>
 </body>
 
 </html>

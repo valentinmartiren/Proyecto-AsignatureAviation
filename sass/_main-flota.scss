@@ -1,0 +1,19 @@
+/*  MAIN FLOTA*/
+
+#flota__h2{
+    font-size: $font-size-h2;
+    color: map-get($background-color, "background-color-secundario");
+}
+
+.galeria-flota{
+    height: 70vh;
+    .galeria-flota img{
+        object-fit: cover;
+    }
+}
+
+.link_contacto{
+
+    color: map-get($background-color, "background-color-secundario");
+    font-size: $font-size-h2;
+}

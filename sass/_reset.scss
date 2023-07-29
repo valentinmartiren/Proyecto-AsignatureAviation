@@ -1,0 +1,9 @@
+/*  RESETS  */
+
+*{
+    font-family: map-get($fuentes, "fuente-principal");
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+

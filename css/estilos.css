@@ -1,188 +1,247 @@
+/*  FUENTES  */
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 @font-face {
-    font-family: monda;
-    src: url(../assets/fonts/Monda/Monda-Regular.ttf);
+  font-family: monda;
+  src: url(../assets/fonts/Monda/Monda-Regular.ttf);
 }
-
 @font-face {
-    font-family: lora;
-    src: url(../assets/fonts/Lora/Lora-VariableFont_wght.ttf);
+  font-family: lora;
+  src: url(../assets/fonts/Lora/Lora-VariableFont_wght.ttf);
+}
+/*  FUENTES  */
+@font-face {
+  font-family: monda;
+  src: url(../assets/fonts/Monda/Monda-Regular.ttf);
+}
+@font-face {
+  font-family: lora;
+  src: url(../assets/fonts/Lora/Lora-VariableFont_wght.ttf);
+}
+/*  UTILITARIAS  */
+@keyframes boton-wsp {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-15px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+.paddingCero {
+  padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-
-*{
-    font-family: monda;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+#titulosPaginas {
+  font-family: monda;
 }
 
-#titulosPaginas{
-    font-family: monda;
+.boton-wp {
+  position: fixed;
+  bottom: 5vh;
+  right: 5vh;
+  background-color: #128C7E;
+  color: #FAFAFA;
+  border-radius: 50%;
+  padding: 2vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  z-index: 100;
+  animation-name: boton-wsp;
+  animation-duration: 2s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
 }
 
-main{
-    background-color: rgb(226, 226, 226);
+.boton-wp:hover {
+  background-color: #FAFAFA;
+  color: #128C7E;
 }
 
-.calidad{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 30%;
+.boton-wp i {
+  display: block;
 }
 
-.calidad__img{
-    width: 25rem;
-    height: 40vh;
-    border-radius: 15px;
-    padding-top: 2rem;
+.boton-wp i.fa-whatsapp {
+  font-size: 2em;
 }
 
-.calidad__ico{
-    margin-top: 10px;
-    height: 48px;
+/*  RESETS  */
+* {
+  font-family: monda;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.sustentable{
-    margin-right: 5px;
-    width: 30%;
+/*  MIXINS  */
+/*  MAIN-INDEX  */
+main {
+  background-color: rgb(226, 226, 226);
+}
+main .cualidades {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+main .cualidades .confiable {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+main .cualidades .confiable .confiable__img {
+  width: 25rem;
+  height: 40vh;
+  border-radius: 15px;
+  padding-top: 2rem;
+}
+main .cualidades .confiable .confiable__ico {
+  margin-top: 10px;
+  height: 48px;
+}
+main .cualidades .sustentable {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  padding-right: 5px;
+}
+main .cualidades .sustentable .sustentable__img {
+  width: 25rem;
+  height: 40vh;
+  border-radius: 15px;
+  padding-top: 2rem;
+}
+main .cualidades .sustentable .sustentable__ico {
+  margin-top: 10px;
+  height: 48px;
+}
+main .cualidades .calidad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  width: 30%;
+}
+main .cualidades .calidad .calidad__img {
+  width: 25rem;
+  height: 40vh;
+  padding-top: 2rem;
+  border-radius: 15px;
+}
+main .cualidades .calidad .calidad__ico {
+  margin-top: 10px;
+  height: 48px;
+}
+main .index_flota {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-left: 40px;
 }
 
-.sustentable__img{
-    width: 25rem;
-    height: 40vh;
-    border-radius: 15px;
-    padding-top: 2rem;
-
+/*  MAIN IDENTIDAD */
+.img_fondo_identidad {
+  margin-bottom: 50px;
 }
 
-.sustentable__ico{
-    margin-top: 10px;
-    height: 48px;
+.opinion_clientes img {
+  height: 40vh;
 }
 
-.confiable{
-    margin-right: 5px;
-    width: 30%;
+/*  MAIN FLOTA*/
+#flota__h2 {
+  font-size: 1.5rem;
+  color: #264a77;
 }
 
-.confiable__img{
-    width: 25rem;
-    height: 40vh;
-    padding-top: 2rem;
-    border-radius: 15px;
-
+.galeria-flota {
+  height: 70vh;
+}
+.galeria-flota .galeria-flota img {
+  object-fit: cover;
 }
 
-.confiable__ico{
-    margin-top: 10px;
-    height: 48px;
+.link_contacto {
+  color: #264a77;
+  font-size: 1.5rem;
 }
 
-.index_flota{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 40px;
-    margin-left: 40px;
-    text-align: center;
+/*  MAIN SEGUROS  */
+.clasif_seguros_list {
+  list-style-type: decimal;
 }
 
-.index_valores{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 40px;
+.planesSeguros img {
+  height: 30vh;
 }
 
-/* IDENTIDAD */
-
-.img_fondo_identidad{
-    margin-bottom: 50px;
+/*  FOOTER  */
+footer {
+  background-color: #b4d8ff;
+}
+footer .location h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  margin-top: 0;
+}
+footer .nosotros {
+  background-color: #264a77;
+  color: white;
+}
+footer .nosotros .nosotros h2 {
+  font-size: 1.5rem;
+  color: #c9e3ff;
+}
+footer .contactar .contacto h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+footer .contactar .contacto img {
+  width: 50px;
+  height: 50px;
+}
+footer .encontranos {
+  background-color: #264a77;
+}
+footer .encontranos .encontranos__h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+}
+footer .encontranos .img_encontranos {
+  width: 30px;
+  height: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+footer .encontranos p {
+  color: white;
 }
 
-.opinion_clientes img{
-    height: 40vh;
-
-}
-/*FOOTER*/
-
-footer{
-    background-color: #b4d8ff;
+/*  HEADER  */
+.header-index .container-fluid .navbar-nav .nav-items .a {
+  font-family: lora;
 }
 
-.paddingCero{
-    padding: 0;
-}
-
-.location h2{
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    margin-top: 0;
-}
-
-.contacto h2{
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-.contacto img{
-    width: 50px;
-    height: 50px;
-}
-
-.encontranos{
-    background-color: #4d8fdf;
-}
-
-.encontranos h2{
-    padding-top: 10px;
-    text-align: center;
-    margin-top: 50px;
-}
-
-.img_encontranos{
-    width: 30px;
-    height: 30px;
-    margin-right: 30px;
-    margin-left: 30px;
-}
-
-.nosotros{
-    background-color: #264a77;
-    color: white;
-}
-
-.nosotros h2{
-    font-size: 1.50rem;
-    color:#c9e3ff;
-}
-
-#flota__h2{
-    font-size: 1.50rem;
-    color: #264a77;
-}
-
-.galeria-flota{
-    height: 70vh;
-}
-
-.galeria-flota img{
-    object-fit: cover;
-}
-
-.link_contacto{
-
-    color: #264a77;
-    font-size: 1.50rem;
-}
-
-.clasif_seguros_list{
-    list-style-type: decimal;
-}
-
-.planesSeguros img{
-    height: 30vh;
-}
+/*# sourceMappingURL=estilos.css.map */

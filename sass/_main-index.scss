@@ -1,0 +1,59 @@
+/*  MAIN-INDEX  */
+
+
+main{
+    background-color: map-get($background-color, "background-color-main");
+    .cualidades{
+        @include flex-direction (row);
+        .confiable{
+            @include flex-direction (column);
+            width: 30%;
+            .confiable__img{
+                width: 25rem;
+                height: 40vh;
+                border-radius: 15px;
+                padding-top: 2rem;
+            }
+            .confiable__ico{
+                margin-top: 10px;
+                height: 48px;
+            }
+        }
+        .sustentable{
+            @include flex-direction(column);
+            width: 30%;
+            padding-right: 5px;
+            .sustentable__img{
+                width: 25rem;
+                height: 40vh;
+                border-radius: 15px;
+                padding-top: 2rem;
+            }
+            .sustentable__ico{
+                margin-top: 10px;
+                height: 48px;
+            }
+        }
+        .calidad{
+            @include flex-direction(column);
+            margin-right: 5px;
+            width: 30%;
+            .calidad__img{
+                width: 25rem;
+                height: 40vh;
+                padding-top: 2rem;
+                border-radius: 15px;
+            }
+            .calidad__ico{
+                margin-top: 10px;
+                height: 48px;
+            }
+        }
+    }
+    .index_flota{
+        @include flex-direction (column);
+        text-align: center;
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+}

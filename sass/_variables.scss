@@ -1,0 +1,14 @@
+@import 'fuentes.scss';
+
+$fuentes:(
+    "fuente-principal": monda,
+    "fuente-secundaria": lora,
+);
+
+$background-color:(
+    "background-color-main": rgb(226,226,226),
+    "background-color-footer": #4d8fdf,
+    "background-color-secundario": #264a77,
+);
+
+$font-size-h2: 1.50rem;

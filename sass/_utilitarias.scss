@@ -1,0 +1,53 @@
+/*  UTILITARIAS  */
+
+@keyframes boton-wsp{
+    0%{
+        transform: translatey(0px);
+    }
+    50%{
+        transform: translatey(-15px);
+    }
+    100%{
+        transform: translatey(0px);
+    }
+}
+
+.paddingCero{
+    padding: 0;
+}
+
+#titulosPaginas{
+    font-family: map-get($fuentes, "fuente-principal");
+}
+
+.boton-wp {
+    position: fixed;
+    bottom: 5vh;
+    right: 5vh;
+    background-color: #128C7E;
+    color: #FAFAFA;
+    border-radius: 50%;
+    padding: 2vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    z-index: 100;
+    animation-name: boton-wsp;
+    animation-duration: 2s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+
+.boton-wp:hover {
+    background-color: #FAFAFA;
+    color: #128C7E;
+}
+
+.boton-wp i {
+    display: block;
+}
+
+.boton-wp i.fa-whatsapp {
+    font-size: 2em;
+}

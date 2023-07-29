@@ -1,0 +1,14 @@
+/*  HEADER  */
+
+.header-index{
+    .container-fluid{
+        .navbar-nav{
+            .nav-items{
+                .a{
+                    font-family: map-get($fuentes, "fuente-secundaria");
+                }
+            }
+        }
+    }
+}
+

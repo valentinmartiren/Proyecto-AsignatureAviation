@@ -1,7 +1,7 @@
 /*  MAIN-INDEX  */
 
 
-main{
+.main{
     background-color: map-get($background-color, "background-color-main");
     .cualidades{
         @include flex-direction (row);
